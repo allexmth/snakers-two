@@ -1,8 +1,8 @@
-/* Define a paleta de cores Neon */
+
 :root {
     --cor-fundo: #0d1117;
     --cor-arena: #161b22;
-    --cor-principal: #58a6ff; /* Azul Neon */
+    --cor-principal: #58a6ff; 
     --cor-texto: #c9d1d9;
     --cor-brilho: rgba(88, 166, 255, 0.5);
 }
@@ -37,7 +37,6 @@ body {
     background-color: var(--cor-arena);
     border: 3px solid var(--cor-principal);
     border-radius: 8px;
-    /* O EFEITO NEON! */
     box-shadow: 0 0 15px var(--cor-brilho), 0 0 25px var(--cor-brilho);
     width: 90vw;
     height: 90vw;
@@ -45,7 +44,6 @@ body {
     max-height: 400px;
 }
 
-/* --- ESTILO DEFINITIVO DOS CONTROLES --- */
 .controls {
     margin-top: 20px;
     display: grid;
@@ -85,8 +83,6 @@ body {
 #btn-down { grid-area: down; }
 #btn-left { grid-area: left; }
 #btn-right { grid-area: right; }
-/* --- FIM DOS ESTILOS DE CONTROLE --- */
-
 #game-over-screen {
     position: absolute;
     background-color: rgba(22, 27, 34, 0.95);
